@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Adjust the height as needed */
+    }
+    
+    .navbar {
+      background-color: #333333; /* Set a dark gray color for the navbar */
+      padding: 10px;
+      text-align: left;
+    }
+    
+    .navbar a {
+      text-decoration: none;
+      color: white; /* Set the text color to white for better visibility */
+      margin: 0 10px;
+    }
+    
+    .content {
+      flex: 1;
+      display: flex;
+    }
+    
+    .left-section {
+      flex-basis: 30%;
+      background-color: #f2f2f2; /* Set a light gray color for the left section */
+      padding: 20px; /* Add padding for spacing */
+      box-sizing: border-box; /* Include padding in element width */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 10px; /* Add border radius for rounded corners */
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a professional effect */
+    }
+    
+    .profile-pic {
+      width: 200px; /* Adjust the size as needed */
+      height: 200px; /* Adjust the size as needed */
+      border-radius: 50%; /* Make the image circular */
+      object-fit: cover;
+    }
+    
+    .name {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #333333; /* Set the text color to a darker gray */
+    }
+    
+    .right-section {
+      flex-basis: 70%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px;
+      background-image: url("iips.jpg"); /* Set the background image path */
+      background-size: cover;
+      /*opacity: 0.7; /* Adjust the opacity as needed */
+    }
+    
+    .right-section-content {
+      text-align: left;
+    }
+    
+    .right-section h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: white; /* Set the heading color to white for better visibility */
+    }
+    
+    .right-section p {
+      font-size: 20px;
+      color: white; /* Set the paragraph color to white for better visibility */
+    }
+    
+    .projects-box {
+      background-color: #007bff; /* Set a dark blue color for the projects box */
+      border-radius: 10px; /* Add border radius for rounded corners */
+      padding: 10px;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a professional effect */
+    }
+    
+    .submissions-box {
+      background-color: #007bff; /* Set a dark blue color for the submissions box */
+      border-radius: 10px; /* Add border radius for rounded corners */
+      padding: 10px;
+      margin-top: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a professional effect */
+    }
+    
+    .projects-box a,
+    .submissions-box a {
+      text-decoration: none;
+      color: white; /* Set the text color to white for better visibility */
+    }
+    
+    .footer {
+      background-color: #333333; /* Set a dark gray color for the footer */
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .footer-links {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .footer-links a {
+      text-decoration: none;
+      color: white; /* Set the text color to white for better visibility */
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <a href="home.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="submissions.html">Submissions</a>
+      <a href="contact.html">Contact Me</a>
+    </div>
+    
+    <div class="content">
+      <div class="left-section">
+        <img class="profile-pic" src="Screenshot 2023-05-24 at 1.04.29 PM.png" alt="Profile Picture">
+        <div class="name">Hrushika Sharma</div>
+        <div class="projects-box">
+          <a href="projects.html">Projects</a>
+        </div>
+        <div class="submissions-box">
+          <a href="submissions.html">Submissions</a>
+        </div>
+      </div>
+      
+      <div class="right-section">
+        <div class="right-section-content">
+          <h1>Welcome to my website</h1>
+          <p>Thank you for visiting my website! I'm passionate about my work and strive to deliver high-quality projects and videos. Every single project and video is crafted with meticulous research and attention to detail. I continuously work to improve my skills and accuracy, aiming to exceed your expectations with each endeavor.</p>
+          <p>I appreciate your support and interest in my work so far. Your presence and engagement mean a lot to me as I embark on this creative journey. I hope you have enjoyed exploring my website and discovering the projects and videos I have shared.</p>
+          <p>Stay tuned for more exciting content and updates. Thank you for joining me on this journey, and I look forward to bringing you more valuable and engaging work in the future!</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/NI4gtART5bU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <div class="footer-links">
+        <a href="https://github.com">GitHub</a>
+        <a href="https://youtube.com/@hrusharmaa">YouTube</a>
+        <a href="https://linkedin.com">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
